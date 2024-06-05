@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    padding-inline: 1em;
+    padding-block: 2em;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 20em;
+    gap: 1.5em;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+span {
+    display:inline-block;
+    margin-block-start: 2em;
+}
+
+img {
+    border-radius: 50%;
+    margin-inline-end: 1em;
+}
+
+div:not(.profile) {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.profile span {
+    margin-block-start: 0.2em;
+}
